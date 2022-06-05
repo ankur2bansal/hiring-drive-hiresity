@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #1d4354;
+}
+
+.navbar-nav li a {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.navbar-nav a:hover {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2dcc94;
+}
+
+.navbar .log {
+    padding: 8px 20px;
+    color: #FFF;
+    line-height: 1;
+    background-color: #1d4354;
+}
+
+.navbar .log span {
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.navbar .bell {
+    font-size: 40px;
+    color: #FFF;
+    line-height: 1;
+    border-width: 0;
+    padding: 0;
+    background-color: transparent;
+    margin: 0 10px 0 0;
+}
+
+.active {
+    color: #2dcc94;
+    border-bottom: 3px solid #2dcc94;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+}
+.rectangle38{
+    position: absolute;
+    display: flex;
+    width: 455px;
+    height: 454px;
+    left: 260px;
+    top: 35px;
+    background: #1D4354;
+    border-radius: 10px 0 0 10px;
+
+}
+.rectangle39{
+    position: absolute;
+    width: 455px;
+    height: 454px;
+    left: 715px;
+    top: 35px;
+    background: lightgrey;
+    border-radius: 0 10px 10px 0;
+}
+.rectangle41{
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    left: 35px;
+    top: 40px;
+
+    background: #376073;
+    border-radius: 50px;
+}
+.rectangle42{
+    position: absolute;
+    width: 93px;
+    height: 9px;
+
+    background: #1DEEA4;
+    border-radius: 50px;
+}
+h1{
+    position: absolute;
+    width: 76px;
+    height: 14px;
+    left: 40px;
+    top: 53px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #1DEEA4;
+}
+h2{
+    position: absolute;
+    width: 32px;
+    height: 14px;
+    left: 150px;
+    top: 53px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+h3{
+    position: absolute;
+width: 67px;
+height: 14px;
+left: 260px;
+top: 53px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+h4{  
+position: absolute;
+width: 36px;
+height: 14px;
+left: 370px;
+top: 53px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+h5{
+    position: absolute;
+    width: 460px;
+    height: 110px;
+    left: 35px;
+    top: 100px;
+
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 57px;
+
+    color: #FFFFFF;
+}
+p{
+    position: absolute;
+    width: 390px;
+    height: 40px;
+    left: 35px;
+    top: 250px;
+
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+h6{
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 35px;
+    top: 70px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.job-title input{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 32px;
+    top: 120px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    align-items: center;
+
+}
+.nextskills button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 300px;
+    top: 400px;
+
+    background: #1DEEA4;
+    border-radius: 40px;
+}
+
+.rectangle39 .exm{
+    position: absolute;
+    width: 483px;
+    height: 220px;
+    left: 30px;
+    top: 190px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+/* footer */
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+.footer-section li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-section li {
+    margin-top: 0px;
+}
+
+
